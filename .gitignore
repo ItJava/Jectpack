@@ -17,3 +17,7 @@ local.properties
 /lifecycle/src/test/
 /.idea/
 /app/src/androidTest/
+/viewmodel/
+/viewmodel/src/androidTest/
+/viewmodel/src/androidTest/
+/viewmodel/src/androidTest/

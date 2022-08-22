@@ -10,3 +10,4 @@ rootProject.name = "Jectpack"
 include ':app'
 include ':lifecycle'
 include ':viewmodel'
+include ':livedata'

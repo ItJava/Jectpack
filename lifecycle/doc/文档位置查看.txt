@@ -1,0 +1,4 @@
+
+文档地址：https://developer.android.google.cn/topic/libraries/architecture/lifecycle
+文档->指南->架构组件->界面层库->生命周期感知型组件->处理生命周期
+JetPack->库->androidx.lifecycle

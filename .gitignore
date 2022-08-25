@@ -23,3 +23,5 @@ local.properties
 /viewmodel/src/androidTest/
 /livedata/src/androidTest/
 /livedata/src/test/
+/databinding/src/androidTest/
+/databinding/src/test/

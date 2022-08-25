@@ -27,3 +27,6 @@ local.properties
 /databinding/src/test/
 /databinding2/src/androidTest/
 /databinding2/src/test/
+/.
+/databinding3/src/test/
+/databinding3/src/androidTest/

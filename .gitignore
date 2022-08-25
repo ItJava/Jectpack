@@ -25,3 +25,5 @@ local.properties
 /livedata/src/test/
 /databinding/src/androidTest/
 /databinding/src/test/
+/databinding2/src/androidTest/
+/databinding2/src/test/

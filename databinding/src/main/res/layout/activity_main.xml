@@ -7,6 +7,10 @@
         <variable
             name="idol"
             type="com.deling.databinding.Idol"/>
+        <variable
+            name="eventHandle"
+            type="com.deling.databinding.EventHandleListener" />
+        <import type="com.deling.databinding.StarUtils"/>
 
     </data>
 
@@ -40,17 +44,31 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/guideline3"
+            android:textSize="28sp"
             app:layout_goneMarginTop="30dp" />
 
         <TextView
             android:id="@+id/star"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{idol.star}"
+            android:text="@{StarUtils.getStar(idol.star)}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/name"
-
+            android:textSize="22sp"
               />
+
+        <Button
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="喜欢"
+            android:textSize="22sp"
+            android:onClick="@{eventHandle.buttonOnClick}"
+            app:layout_constraintTop_toBottomOf="@+id/star"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

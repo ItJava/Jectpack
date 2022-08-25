@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
        // setContentView(R.layout.activity_main);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        Idol idol=new Idol("詹姆斯","五星全明星");
+        Idol idol=new Idol("詹姆斯",3);
         binding.setIdol(idol);
+        binding.setEventHandle(new EventHandleListener(this));
 
     }
 }

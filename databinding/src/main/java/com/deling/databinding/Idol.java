@@ -3,10 +3,27 @@ package com.deling.databinding;
 public class Idol {
 
     public String name;
-    public String star;
+    public int star;
 
-    public Idol(String name, String star) {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getStar() {
+        return star;
+    }
+
+    public void setStar(int star) {
+        this.star = star;
+    }
+
+    public Idol(String name, int star) {
         this.name = name;
         this.star = star;
     }
+
 }
